@@ -1,0 +1,56 @@
+body{
+	background-color: #f2f2f2;
+}
+
+#nav img{
+	display: inline-block;
+	width:84%;
+}
+
+#logo{
+	padding-top: 6%;
+	padding-bottom: 6%;
+	width:45%;
+	margin-left: 5%;
+	position: relative;
+}
+
+#search-logo{
+		width: 14%;
+		height: 6.3%;
+		float: right;
+		position: absolute;
+		top:4.2%;
+		right:25%;
+		margin-right: 6.5%;
+		border-radius: 10%;
+		border: 4px solid #c73a11;
+		background: url(https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/search-icon.svg) 50% 50% no-repeat;
+		background-color: #e95c33;
+		background-size: 68%;
+		box-shadow: 0 .08em .08em rgba(0,0,0,.25);
+}
+
+#menu-logo{
+		width:18%;
+		height: 6.3%;
+		background-color: #e95c33;
+		float: right;
+		position: absolute;
+		top:4.2%;
+		right:8%;
+		border-radius: 10%;
+		border: 4px solid #c73a11;
+		color:white;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 46px;
+		line-height: 100px;
+		font-family: 'Proxima Nova Bold',"Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+}
+
+.content{
+
+	width:100%;
+	background-color: white;
+}
