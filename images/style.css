@@ -8,11 +8,11 @@ body{
 }
 
 #container{
-	margin-left: 10px;
+	margin-left: 0.71428571REM;
 }
 
 #navigation{
-	height: 73px;
+	height: 5REM;
 	width:100%;
 	display: inline-block;
 }
@@ -25,32 +25,32 @@ body{
 	display: inline-block;
 	border-right: .08em solid rgba(0,0,0,.05);
 	vertical-align: middle;
-	font-size: 15PX;
+	font-size: 1.07142857REM;
 	color: rgba(0,0,0,.3);
-	line-height: 35PX;
+	line-height: 2.5REM;
 }
 
 #navigation .current {
 	background-color: white;
-	height: 80PX;
+	height: 5.71428571REM;
 
 
 }
 
 .current img{
-		width:151px;
-		height: 39px;
-		padding-right: 16px;
-		padding-left: 16px;
-		padding-top: 24px;
+		width:10.78571429REM;
+		height: 2.71428571REM;
+		padding-right: 1.14285714REM;
+		padding-left: 1.14285714REM;
+		padding-top: 1.35714286REM;
 		
 }
 
 #list_item{
-	padding-top: 40px;
-	padding-bottom: 8px;
-	padding-left: 16px;
-	padding-right: 16px;
+	padding-top: 2.85714286REM;
+	padding-bottom: 0.57142857REM;
+	padding-left: 1.14285714REM;
+	padding-right: 1.14285714REM;
 	/*margin-bottom: 10px;*/
 	font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
     font-style: normal;
@@ -69,29 +69,29 @@ body{
 	height:100%;
 	
 	position: relative;
-	margin-top: 7PX;
+	margin-top: 0.5REM;
 }
 
 
 #menu{
-	width:706px;
+	width:50.42857143REM;
 
 }
 
 #social_media{
 	position: absolute;
 	top:0;
-	right:436px;
-	width:132px;
+	right:31.28571429REM;
+	width:9.42857143REM;
 	float: right;
 
 }
 
 #list_item1{
-	padding-top: 40px;
-	padding-bottom: 8px;
+	padding-top: 2.85714286REM;
+	padding-bottom: 0.57142857REM;
 	
-	margin-bottom: 10px;
+	margin-bottom: 0.71428571REM;
 	font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -106,26 +106,26 @@ body{
 }
 
 #search_font{
-	padding-top: 40px;
-	padding-bottom: 2px;
+	padding-top: 2.85714286REM;
+	padding-bottom: 0.14285714REM;
 	font-weight: 400;
 	    font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
     font-style: normal;
     color: rgba(0,0,0,.25);
-	margin-bottom: 10px;
+	margin-bottom: 0.71428571REM;
 	position: absolute;
 	top:0;
-	right:210px;
+	right:15REM;
 }
 
 .left-nav{
 	/*border:2px solid black;*/
-	width:196px;
+	width:14REM;
 }
 
 .box{
-	padding-bottom: 36px;
-	border-left: 10px solid;
+	padding-bottom: 2.57142857REM;
+	border-left: 0.71428571REM solid;
 }
 
 .first{
@@ -153,20 +153,18 @@ body{
 	border-left-color: #BCD8F0;
 }
 .left-part{
-	padding-top: 65px;
-	padding-bottom: 200px;
-	width:828px;
+	padding-top: 4.64285714REM;
+	padding-bottom: 7.14285714REM;
+	width:59REM;
 	background: white;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-top-right-radius: 0.57142857REM;
 	position: relative;
-	height: 100%;
 }
 
 .leftnav-elements{
 		list-style: none;
 	display: block;
-	padding: 4px 8px 4px 45px;
+	padding: 0.28571429REM 0.57142857REM 0.28571429REM 3.21428571REM;
 	font-family: 'Proxima Nova Bold',"Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -216,39 +214,39 @@ body{
 
 .search-field{
 	position: absolute;
-	top:1px;
-	right: 114px;
+	top:0.07142857REM;
+	right: 8.14285714REM;
 }
 
 #input-box{
-	width: 306px;
-	height: 27px;
+	width: 21.85714286REM;
+	height: 1.92857143REM;
 	/*border:0;*/
 	border: .08em solid rgba(0,0,0,.1);
-	border-radius:10px;
-	padding-bottom: 7px;
-	padding-top: 7px;
-	padding-left: 8.4px;
+	border-radius:0.71428571REM;
+	padding-bottom: 0.5REM;
+	padding-top: 0.5REM;
+	padding-left: 0.57142857REM;
 	font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
     font-style: normal;
-    font-size: 18px;
+    font-size: 10.57142857REM;
 }
 
 #search-button{
 	position: absolute;
 	top: 1px;
-	right:19px;
-	width:96px;
-	height: 40px;
+	right:1.35714286REM;
+	width:6.85714286REM;
+	height: 2.85714286REM;
 	border: .08em solid #c73a11;
 	background: #e95c33;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-top-right-radius: 0.71428571REM;
+	border-bottom-right-radius: 0.71428571REM;
 	color: white;
 	line-height: 1.85;
 	text-align: center;
 	font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
-	font-size: 19px;
+	font-size: 1.35714286REM;
 }
 
 #search-button:hover{
@@ -257,18 +255,14 @@ body{
 
 .articles-box{
 	position: absolute;
-	top:68px;
-	left:200px;
-	padding-right: 35px;
-	padding-left: 35px;
+	top:60.57142857REM;
+	left:14.28571429REM;
+	padding-right: 2.5REM;
+	padding-left: 2.5REM;
 }
 
 #list_item1 img{
-	margin-right: 5px;
-}
-
-#first-article ul{
-	padding-bottom: 36px;
+	margin-right: 0.35714286REM;
 }
 
 #first-article ul li{
@@ -276,42 +270,13 @@ body{
 	
 }
 
-#first-article p{
-	padding-top: 11px;
-	padding-bottom: 11px;
-	font-size: 1.375em;
-    line-height: 1.35;
-    font-family: "Skolar Regular","Roboto Slab","Droid Serif",Cambria,Georgia,"Times New Roman",Times,serif;
-    font-weight: 400;
-}
-
-#first-article img{
-	width:100%;
-	padding-top: 8px;
-	padding-bottom: 8px;
-}
-
 .author{
 	display: block;
-	padding-top: 12.5px;
-	padding-bottom: 12.5px;
-	padding-right: 12.5px;
+	padding-top: 0.85714286REM
+	padding-bottom: 0.85714286REM
+	padding-right: 0.85714286REM
 	border-bottom: .08em solid rgba(0,0,0,.1);
 	color: #41b7d8;
-	font-size: 25px;
-
-}
-.author a{
-	text-decoration: none;
-	color: #41b7d8;
-}
-
-.author a:hover{
-	text-decoration: underline;
-}
-
-.group a:hover{
-	text-decoration: underline;
 }
 
 .date{
@@ -327,49 +292,25 @@ body{
 	color: #41b7d8;
 }
 
-.group a{
-	text-decoration: none;
-	color: #41b7d8;
-}
-
 .comments{
 	background-image: url(https://www.smashingmagazine.com/wp-content/themes/smashing-magazine/assets/images/icon-meta-comments.svg);
 	color: #41b7d8;
 }
 
-
-
 .group{
-	padding: 4.5px 36px 4.5px 27px;
-	margin-top: 18px;
+	padding: 0.28571429REM 36px 0.28571429REM 1.92857143REM;
+	margin-top: 10.57142857REM;
 	display: inline-block;
 	background-repeat: no-repeat;
-	background-size: 18px;
+	background-size: 10.57142857REM;
 	background-position: 1%;
-	font-size: 18px;
 }
 
 .articles-box #first-article h1{
 	    font-family: "Skolar Bold","Segoe UI Bold","Roboto Slab","Droid Serif",AvenirNext-Bold,"Avenir Bold",Georgia,"Times New Roman",Times,serif;
 	    color:#333;
-	    font-size: 33px;
 }
 
-#read-more{
-	position: absolute;
-	bottom:5px;
-	left: 10px;
-	width:50px;
-	height: 30px;
-	background-color: #41b7d8;
-	border: .08em solid rgba(0,0,0,.1);
-	border-radius: 10px;
-	padding: 5px 10px 5px 10px;
-	width:110px;
-	color:white;
-	vertical-align: middle;
-	line-height: 1.5;
 
-}
 
 
