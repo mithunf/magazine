@@ -1,0 +1,316 @@
+body{
+	background-image: url(https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/smbg.png);
+}
+
+*{
+	margin: 0;
+	padding:0;
+}
+
+#container{
+	margin-left: 0.71428571REM;
+}
+
+#navigation{
+	height: 5REM;
+	width:100%;
+	display: inline-block;
+}
+
+#navigation #menu ul{
+	padding: 0;
+}
+#navigation  #menu ul li{
+	list-style: none;
+	display: inline-block;
+	border-right: .08em solid rgba(0,0,0,.05);
+	vertical-align: middle;
+	font-size: 1.07142857REM;
+	color: rgba(0,0,0,.3);
+	line-height: 2.5REM;
+}
+
+#navigation .current {
+	background-color: white;
+	height: 5.71428571REM;
+
+
+}
+
+.current img{
+		width:10.78571429REM;
+		height: 2.71428571REM;
+		padding-right: 1.14285714REM;
+		padding-left: 1.14285714REM;
+		padding-top: 1.35714286REM;
+		
+}
+
+#list_item{
+	padding-top: 2.85714286REM;
+	padding-bottom: 0.57142857REM;
+	padding-left: 1.14285714REM;
+	padding-right: 1.14285714REM;
+	/*margin-bottom: 10px;*/
+	font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#list_item:hover{
+	background-color: #ff6;
+	cursor: pointer;
+
+
+}
+
+#content{
+	width:100%;
+	height:100%;
+	
+	position: relative;
+	margin-top: 0.5REM;
+}
+
+
+#menu{
+	width:50.42857143REM;
+
+}
+
+#social_media{
+	position: absolute;
+	top:0;
+	right:31.28571429REM;
+	width:9.42857143REM;
+	float: right;
+
+}
+
+#list_item1{
+	padding-top: 2.85714286REM;
+	padding-bottom: 0.57142857REM;
+	
+	margin-bottom: 0.71428571REM;
+	font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#navigation  #social_media ul li{
+	list-style: none;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	color: rgba(0,0,0,.3);
+}
+
+#search_font{
+	padding-top: 2.85714286REM;
+	padding-bottom: 0.14285714REM;
+	font-weight: 400;
+	    font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-style: normal;
+    color: rgba(0,0,0,.25);
+	margin-bottom: 0.71428571REM;
+	position: absolute;
+	top:0;
+	right:15REM;
+}
+
+.left-nav{
+	/*border:2px solid black;*/
+	width:14REM;
+}
+
+.box{
+	padding-bottom: 2.57142857REM;
+	border-left: 0.71428571REM solid;
+}
+
+.first{
+	 border-left-color: #C9E9E5;
+	
+}
+
+.second{
+	border-left-color:  #CDEEAA;
+}
+
+.third{
+	border-left-color: #F9F0A8;
+}
+
+.fourth{
+	border-left-color: #E0CFDF;
+}
+
+.fifth{
+	border-left-color: #FACED2;
+}
+
+.sixth{
+	border-left-color: #BCD8F0;
+}
+.left-part{
+	padding-top: 4.64285714REM;
+	padding-bottom: 7.14285714REM;
+	width:59REM;
+	background: white;
+	border-top-right-radius: 0.57142857REM;
+	position: relative;
+}
+
+.leftnav-elements{
+		list-style: none;
+	display: block;
+	padding: 0.28571429REM 0.57142857REM 0.28571429REM 3.21428571REM;
+	font-family: 'Proxima Nova Bold',"Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+        color: #777;
+}
+
+.leftnav-elements h3{
+	color:#333;
+}
+
+.box:hover{
+	cursor: pointer;
+}
+
+.first:hover{
+	border-left-color: #63BFB2;
+}
+
+.second:hover{
+	border-left-color: #6ECE0A;
+}
+
+.third:hover{
+	border-left-color: #EBD203;
+}
+
+.fourth:hover{
+	border-left-color: #A675A2;
+}
+
+.fifth:hover{
+	border-left-color: #F0717C;
+}
+
+.sixth:hover{
+	border-left-color: #3E8DD2;
+}
+
+.leftnav-elements:hover{
+	background-color: #ff6;
+	cursor: pointer;
+}
+
+.box:hover .heading{
+	     border-bottom: .08em solid rgba(0,0,0,.1);
+}
+
+.search-field{
+	position: absolute;
+	top:0.07142857REM;
+	right: 8.14285714REM;
+}
+
+#input-box{
+	width: 21.85714286REM;
+	height: 1.92857143REM;
+	/*border:0;*/
+	border: .08em solid rgba(0,0,0,.1);
+	border-radius:0.71428571REM;
+	padding-bottom: 0.5REM;
+	padding-top: 0.5REM;
+	padding-left: 0.57142857REM;
+	font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-style: normal;
+    font-size: 10.57142857REM;
+}
+
+#search-button{
+	position: absolute;
+	top: 1px;
+	right:1.35714286REM;
+	width:6.85714286REM;
+	height: 2.85714286REM;
+	border: .08em solid #c73a11;
+	background: #e95c33;
+	border-top-right-radius: 0.71428571REM;
+	border-bottom-right-radius: 0.71428571REM;
+	color: white;
+	line-height: 1.85;
+	text-align: center;
+	font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+	font-size: 1.35714286REM;
+}
+
+#search-button:hover{
+	cursor: pointer;
+}
+
+.articles-box{
+	position: absolute;
+	top:60.57142857REM;
+	left:14.28571429REM;
+	padding-right: 2.5REM;
+	padding-left: 2.5REM;
+}
+
+#list_item1 img{
+	margin-right: 0.35714286REM;
+}
+
+#first-article ul li{
+	list-style: none;
+	
+}
+
+.author{
+	display: block;
+	padding-top: 0.85714286REM
+	padding-bottom: 0.85714286REM
+	padding-right: 0.85714286REM
+	border-bottom: .08em solid rgba(0,0,0,.1);
+	color: #41b7d8;
+}
+
+.date{
+
+	    color: rgba(0,0,0,.3);
+	background-image:url(https://www.smashingmagazine.com/wp-content/themes/smashing-magazine/assets/images/icon-meta-time.svg);
+	
+}
+
+.communication{
+	
+	background-image: url(https://www.smashingmagazine.com/wp-content/themes/smashing-magazine/assets/images/icon-meta-tags.svg);
+	color: #41b7d8;
+}
+
+.comments{
+	background-image: url(https://www.smashingmagazine.com/wp-content/themes/smashing-magazine/assets/images/icon-meta-comments.svg);
+	color: #41b7d8;
+}
+
+.group{
+	padding: 0.28571429REM 36px 0.28571429REM 1.92857143REM;
+	margin-top: 10.57142857REM;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: 10.57142857REM;
+	background-position: 1%;
+}
+
+.articles-box #first-article h1{
+	    font-family: "Skolar Bold","Segoe UI Bold","Roboto Slab","Droid Serif",AvenirNext-Bold,"Avenir Bold",Georgia,"Times New Roman",Times,serif;
+	    color:#333;
+}
+
+
+
+
